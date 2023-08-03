@@ -2,51 +2,63 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    
+    margin : 0;
 }
 
 .header {
     display: flex;
     justify-content: center;
     color : white;
-    background-color: black;
+    background-color: #1F2937;
+
 }   
 
-.display {
+.display  {
     display : flex;
     justify-content: center;
-    color : white;
-    background-color: black;
+    color : #1F2937;
+    font-weight: 700;
+    font-size: 30px;
+
 
 }
 
 .container {
     display : flex;
-    border : 1px solid black;
     justify-content: center;
-    align-items: center;
     gap : 100px;
-    background-color: ;
- 
-
+    margin-top: auto;
+    background-color: 
 
 }
 
 .container .game {
-    height: 200px;
-    width : 200px;
-    border : 1px solid purple;
-
     justify-content: center;
-    display : flex;
     align-items: center;
+    
 }
 
+img {
+    height: 200px;
+    width: 200px;
+}
+
+#ciseaux {
+    transform: rotate(180deg);
+
+}
 
 .footer {
-    margin-top : auto;
-    background-color:black;
+    background-color:#1F2937;
+    color : white;
+    font-size: 24px;
+    text-align: center;
+    margin-top: auto;
+    font-weight: 700;
 
 
 }
 
+button {
+    background-color: white;
+}
